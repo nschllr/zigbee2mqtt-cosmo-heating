@@ -1,0 +1,24 @@
+# Local installations and generated converters contain device addresses.
+config.local.json
+config.*.local.json
+dist/
+node_modules/
+.env
+.env.*
+.npmrc
+*.log
+*.tgz
+coverage/
+.DS_Store
+# Never import household captures, backups or vendor firmware into this project.
+captures/
+backups/
+research/
+*.bin
+*.so
+*.ota
+*.image
+*.apk
+*.tar
+*.zip
+*.private.*

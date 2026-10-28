@@ -1,0 +1,27 @@
+{
+  "clock": {
+    "timeZone": "Europe/Berlin",
+    "standardUtcOffsetMinutes": 60,
+    "daylightSavingOffsetMinutes": 60
+  },
+  "controllers": [
+    {
+      "controllerIeee": "0x0200000000000001",
+      "wcNumber": 1,
+      "thermostatIeees": [
+        "0x0200000000000011",
+        "0x0200000000000012",
+        "0x0200000000000013"
+      ]
+    },
+    {
+      "controllerIeee": "0x0200000000000002",
+      "wcNumber": 2,
+      "thermostatIeees": [
+        "0x0200000000000021",
+        "0x0200000000000022",
+        "0x0200000000000023"
+      ]
+    }
+  ]
+}

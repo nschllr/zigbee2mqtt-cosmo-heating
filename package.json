@@ -1,0 +1,17 @@
+{
+  "name": "cosmo-cftp-cfkl8-zigbee2mqtt",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Experimental local Zigbee2MQTT support for COSMO CFTP 2010 thermostats and CFKL8 wiring centres",
+  "type": "module",
+  "license": "MIT",
+  "engines": {"node": ">=24 <25"},
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "zigbee-herdsman": "10.10.0",
+    "zigbee-herdsman-converters": "26.115.1"
+  }
+}
